@@ -15,7 +15,7 @@ The WhatsApp agent provides **bi-directional** integration between your FastMode
 
 Send content to WhatsApp contacts directly from FastMode:
 
-- ✅ **Text Messages**: `"Send message to Abhi at +917814996201: Meeting at 5pm"`
+- ✅ **Text Messages**: `"Send message to Abhi at +919876543221: Meeting at 5pm"`
 - ✅ **Generated Images**: `"Create a Discord logo and send to Abhi on WhatsApp"`
 - ✅ **Flowcharts**: `"Generate user auth flowchart and send to John"`
 - ✅ **Case Studies**: `"Create project case study and share on WhatsApp"`
@@ -83,12 +83,12 @@ curl -X POST http://localhost:3000/configure/webhook \
 
 **FastMode Input:**
 ```
-Send message to Abhi at +917814996201: "Hey! Can we meet tomorrow at 3pm?"
+Send message to Abhi at +919876543221: "Hey! Can we meet tomorrow at 3pm?"
 ```
 
 **What Happens:**
 1. Router detects WhatsApp agent needed
-2. Extracts recipient: `+917814996201`
+2. Extracts recipient: `+919876543221`
 3. Extracts message: `"Hey! Can we meet tomorrow at 3pm?"`
 4. Shows preview in FastMode UI
 5. You can edit or rewrite with AI
@@ -172,7 +172,7 @@ When you request a WhatsApp send, you'll see:
 │ 📱 WhatsApp Message Preview         │
 ├─────────────────────────────────────┤
 │ To: Abhi                            │
-│     +917814996201                   │
+│     +919876543221                   │
 ├─────────────────────────────────────┤
 │ Message:                            │
 │ ┌───────────────────────────────┐   │
@@ -204,7 +204,7 @@ Content-Type: application/json
 
 {
   "operation": "send_message",
-  "phone_number": "+917814996201",
+  "phone_number": "+919876543221",
   "message": "Hello from FastMode!"
 }
 ```
@@ -216,7 +216,7 @@ Content-Type: application/json
 
 {
   "operation": "send_image",
-  "phone_number": "+917814996201",
+  "phone_number": "+919876543221",
   "image_path": "outputs/images/logo.png",
   "caption": "Check out this logo!"
 }
@@ -247,7 +247,7 @@ POST /api/whatsapp/webhook
 Content-Type: application/json
 
 {
-  "from": "917814996201",
+  "from": "919876543221",
   "body": "Research quantum computing",
   "type": "text",
   "senderName": "Abhi",
@@ -392,12 +392,12 @@ SESSION_NAME=whatsapp-session
 Always use international format:
 
 ✅ **Correct:**
-- `+917814996201`
+- `+919876543221`
 - `+14155552671`
-- `917814996201`
+- `919876543221`
 
 ❌ **Incorrect:**
-- `7814996201` (missing country code)
+- `9876543221` (missing country code)
 - `+91-781-499-6201` (dashes not supported)
 - `(781) 499-6201` (parentheses not supported)
 
@@ -409,7 +409,7 @@ Always use international format:
 
 ```python
 # Send to multiple contacts
-Send "Project update: Deployment successful!" to +917814996201, +919876543210, +911234567890 on WhatsApp
+Send "Project update: Deployment successful!" to +919876543221, +919876543210, +911234567890 on WhatsApp
 ```
 
 ### Conditional Sends

@@ -70,7 +70,7 @@ class WhatsAppAgent:
             if phone_number is None:
                 return {
                     'status': 'error',
-                    'message': 'Invalid phone number format. Please provide number with country code (e.g., 917814996201 for India)',
+                    'message': 'Invalid phone number format. Please provide number with country code (e.g., 919865324172 for India)',
                 }
             
             response = requests.post(
