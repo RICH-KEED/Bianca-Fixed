@@ -12,6 +12,8 @@ from agents.plotting_agent_matplotlib import PlottingAgentMatplotlib
 from agents.checklist_agent import ChecklistAgent
 from agents.calendar_agent import CalendarAgent
 from agents.daily_digest import DailyDigestSystem
+from agents.whatsapp_agent import WhatsAppAgent
+from agents.presentation_agent import PresentationAgent
 
 __all__ = [
     "BaseAgent",
@@ -30,5 +32,7 @@ __all__ = [
     "ChecklistAgent",
     "CalendarAgent",
     "DailyDigestSystem",
+    "WhatsAppAgent",
+    "PresentationAgent",
 ]
 

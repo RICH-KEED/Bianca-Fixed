@@ -79,6 +79,12 @@ uploads/
 call_recordings/
 meeting_recordings/
 
+# WhatsApp Agent
+Whatsapp-Agent/.wwebjs_auth/
+Whatsapp-Agent/.wwebjs_cache/
+Whatsapp-Agent/uploads/
+Whatsapp-Agent/node_modules/
+
 # Temporary Files
 *.tmp
 *.temp
