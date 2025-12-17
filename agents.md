@@ -1,0 +1,26 @@
+# AI Agent Ecosystem
+
+- [x] **Email Agent**: Cleans the inbox, drafts quick replies, and spots follow-up items that need attention. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [x] **Call Agent**: Sets up calls, joins to record key points, and auto-responds during study hours with smart deferrals. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [ ] **Mail Response Checker Agent**: Reviews incoming emails, extracts the key points, and recommends reply drafts.
+- [ ] **WhatsApp Agent**: Sends updates, schedules auto-replies, and handles quick check-ins across WhatsApp chats.
+- [K] **Task Board Agent**: Keeps personal and team to-dos in sync across apps with smart reminders.
+- [K] **Checklist Agent**: Builds reusable checklists for labs, assignments, or routines and tracks completion.
+- [x] **Research Agent**: Finds sources, compares options, and delivers short summaries with links. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [x] **Document Agent**: Drafts reports, proposals, or posts in the user's tone with editable outlines. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [ ] **Document-to-PDF Agent**: Uses DeepSeek OCR to clean scanned notes, convert them to editable docs, and export polished PDFs.
+- [x] **Flowchart Agent**: Turns bullet ideas into clean flowcharts and simple process maps. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [x] **Image Agent**: Produces quick visuals, mockups, and social-ready graphics from text prompts. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [x] **Case Study Agent**: Gathers wins, metrics, and quotes to publish concise case study narratives. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [ ] **Automation Agent**: Connects tools, triggers routine workflows, and notifies when steps finish.
+- [R] **Data Digest Agent**: Pulls metrics from dashboards, highlights trends, and suggests next actions.
+- [x] **Calendar Agent**: Manages schedules, proposes meeting times, and keeps shared calendars conflict-free. ✅ Integrated (combines reminder functionality)
+- [K] **Daily Schedule Agent**: Builds class-to-study blocks, balances breaks, and updates plans as tasks finish.
+- [x] **Brainstorm Agent**: Generates idea lists, quick wireframes, and creative prompts for new projects. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [ ] **Knowledge Base Agent**: Answers "how do I" questions by surfacing relevant guides, FAQs, and SOPs.
+- [x] **Summary Agent**: Condenses long documents, chat threads, or recordings into digestible bullet notes. ✅ Integrated into Tools-That-Make-Life-Too-Easy
+- [ ] **Exam Blueprint Agent**: Breaks syllabi into study checklists, tracks mastery, and highlights weak spots pre-exam.
+- [ ] **Presentation Coach Agent**: Converts bullet points into slides, drafts speaker notes, and times practice runs.
+- [R] **Hackathon Track Agent**: Organizes hackathon timelines, tracks submissions, and keeps teammates aligned on deliverables.
+- [K] **Interest News Agent**: Curates events, articles, and opportunities based on the user's interests and study focus.
+- [ ] **Quick Order Agent**: Reorders essentials from services like Blinkit, tracks delivery status, and handles substitutions.
