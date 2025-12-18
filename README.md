@@ -1,8 +1,8 @@
-# 🤖 AlienX AI - Multi-Agent Productivity Platform
+# 🤖 Bianca AI - Multi-Agent Productivity Platform
 
 <div align="center">
 
-![AlienX AI Banner](https://img.shields.io/badge/AlienX-AI%20Platform-blueviolet?style=for-the-badge&logo=openai)
+![Bianca AI Banner](https://img.shields.io/badge/Bianca-AI%20Platform-blueviolet?style=for-the-badge&logo=openai)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
 [![Supabase](https://img.shields.io/badge/Supabase-Database-3ECF8E?style=flat-square&logo=supabase)](https://supabase.com/)
@@ -18,9 +18,9 @@
 
 ## 🌟 Overview
 
-AlienX AI is a cutting-edge multi-agent productivity platform that leverages advanced AI models to automate and enhance various aspects of your workflow. From handling emails and calls to generating documents, images, and presentations, AlienX AI acts as your intelligent digital assistant, available 24/7.
+Bianca AI is a cutting-edge multi-agent productivity platform that leverages advanced AI models to automate and enhance various aspects of your workflow. From handling emails and calls to generating documents, images, and presentations, Bianca AI acts as your intelligent digital assistant, available 24/7.
 
-### Why AlienX AI?
+### Why Bianca AI?
 
 - 🚀 **15+ Specialized AI Agents** - Each optimized for specific tasks
 - ⚡ **Real-time Processing** - Instant responses with background task handling
@@ -109,7 +109,7 @@ Execute multiple agent tasks simultaneously with our powerful **Fast Mode** inte
 #### 1. Clone the Repository
 ```bash
 git clone https://github.com/RICH-KEED/Bianca-Prototype.git
-cd AlienX-AI
+cd Bianca-AI
 ```
 
 #### 2. Backend Setup
@@ -132,7 +132,7 @@ PERPLEXITY_API_KEY=your_perplexity_key
 
 #### 3. Frontend Setup
 ```bash
-cd AlienX-AI-refined
+cd Bianca-AI-refined
 
 # Install dependencies
 npm install
@@ -149,7 +149,7 @@ VITE_SUPABASE_ANON_KEY=your_anon_key
 
 Run the SQL setup script in your Supabase SQL Editor:
 ```sql
--- See AlienX-AI-refined/SUPABASE_SETUP.sql for complete schema
+-- See Bianca-AI-refined/SUPABASE_SETUP.sql for complete schema
 CREATE TABLE user_details (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   username TEXT UNIQUE,
@@ -174,7 +174,7 @@ python test_server.py
 
 **Frontend:**
 ```bash
-# From AlienX-AI-refined directory
+# From Bianca-AI-refined directory
 npm run dev
 # App runs on http://localhost:5173
 ```
@@ -185,7 +185,7 @@ npm run dev
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     AlienX AI Platform                       │
+│                     Bianca AI Platform                       │
 ├─────────────────────────────────────────────────────────────┤
 │                                                               │
 │  ┌──────────────┐         ┌──────────────┐                  │
@@ -261,7 +261,7 @@ npm run dev
 ## 📁 Project Structure
 
 ```
-AlienX-AI/
+Bianca-AI/
 ├── agents/                      # AI Agent modules
 │   ├── base_agent.py           # Base agent class
 │   ├── email_agent.py          # Email management
@@ -277,7 +277,7 @@ AlienX-AI/
 │   ├── calendar_agent.py       # Calendar management
 │   └── plotting_agent_matplotlib.py  # Data visualization
 │
-├── AlienX-AI-refined/          # Frontend application
+├── Bianca-AI-refined/          # Frontend application
 │   ├── src/
 │   │   ├── components/         # React components
 │   │   │   ├── Sidebar.jsx    # Navigation
@@ -319,7 +319,7 @@ AlienX-AI/
 User: "Research AI trends in 2024, create a report, 
       and make a 5-slide presentation"
 
-AlienX AI:
+Bianca AI:
 ✅ Research Agent → Gathering insights...
 ✅ Document Agent → Writing report...
 ✅ Presentation Agent → Creating slides...
@@ -375,7 +375,7 @@ POST /api/execute-agent
 ## 🎨 Demo
 
 ### Dashboard
-![Dashboard Preview](https://via.placeholder.com/800x400?text=AlienX+AI+Dashboard)
+![Dashboard Preview](https://via.placeholder.com/800x400?text=Bianca+AI+Dashboard)
 
 ### Fast Mode Interface
 ![Fast Mode](https://via.placeholder.com/800x400?text=Fast+Mode+Multi-Agent+Execution)
@@ -474,7 +474,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **⭐ Star this repo if you find it helpful!**
 
-Made with ❤️ by the AlienX AI Team
+Made with ❤️ by the Bianca AI Team
 
 [![GitHub stars](https://img.shields.io/github/stars/RICH-KEED/Bianca-Prototype?style=social)](https://github.com/RICH-KEED/Bianca-Prototype)
 [![GitHub forks](https://img.shields.io/github/forks/RICH-KEED/Bianca-Prototype?style=social)](https://github.com/RICH-KEED/Bianca-Prototype/fork)
