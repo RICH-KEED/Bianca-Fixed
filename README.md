@@ -372,18 +372,6 @@ POST /api/execute-agent
 
 ---
 
-## 🎨 Demo
-
-### Dashboard
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Bianca+AI+Dashboard)
-
-### Fast Mode Interface
-![Fast Mode](https://via.placeholder.com/800x400?text=Fast+Mode+Multi-Agent+Execution)
-
-### File Explorer
-![File Explorer](https://via.placeholder.com/800x400?text=Cloud+Storage+File+Manager)
-
----
 
 ## 🔒 Security & Privacy
 
